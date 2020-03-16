@@ -16,4 +16,4 @@ In that find ``API_KEY`` and write your API key of openweathermap.org here. Then
 ``npm start``
 
 For explanation visit:
-[](https://www.bloggerdrive.com/react-tutorial-creating-weather-app/)
+[https://www.bloggerdrive.com/react-tutorial-creating-weather-app/](https://www.bloggerdrive.com/react-tutorial-creating-weather-app/)
