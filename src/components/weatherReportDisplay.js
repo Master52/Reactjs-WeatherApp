@@ -2,27 +2,7 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import {makeStyles} from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
-import Avatar from '@material-ui/core/Avatar';
-import sunny from './images/sunny.png';
-
-const style = makeStyles(theme => ({
-  root: {
-    display: 'flex',
-  },
-  details: { display: 'flex', flexDirection: 'column',
-  },
-  content: {
-    flex: '1 0 auto',
-  },
-  cover: {
-      display:'flex',
-      height: 100,
-      width: 100,
-      backgroundSize: '100px',
-  },
-}));
 
 function Display({weatherReport}) {
     var lon                = weatherReport.coord.lon;
@@ -36,7 +16,6 @@ function Display({weatherReport}) {
     var country            = weatherReport.sys.country;
     var city               = weatherReport.name
     
-    const classes = style();
     return(
         <div>
             <CardContent>

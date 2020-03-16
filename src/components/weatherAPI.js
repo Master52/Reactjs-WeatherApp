@@ -2,7 +2,7 @@ import React from 'react';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Display from './weatherReportDisplay';
 
-const API_KEY = "756edce7e9d4c385ef9499a53492678c"
+const API_KEY = /*your API ket here */
 const UNITS = "Metric"
 const LANG = "en"
 
